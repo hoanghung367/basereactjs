@@ -1,0 +1,64 @@
+.box-icon-add {
+    background-color: #23caf0;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 10px auto;
+
+    .addIcon {
+        color: #fff;
+        font-size: 22px;
+        transition: transform .3s ease;
+
+        &:hover {
+            font-size: 27px;
+        }
+    }
+}
+
+
+.sidebar-list {
+    margin: 10px 0;
+    background-color: #fff;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    color: #1a1a1a;
+    width: 72px;
+    height: 72px;
+    justify-content: center;
+    cursor: pointer;
+
+    .link {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    &:hover {
+        .icon {
+            color: #000;
+
+        }
+    }
+
+    .icon {
+        color: #404040;
+        font-size: 25px;
+    }
+
+    +.menu-item {
+        margin-top: 5px;
+    }
+
+    &:hover {
+        background-color: #f5f5f5;
+    }
+}

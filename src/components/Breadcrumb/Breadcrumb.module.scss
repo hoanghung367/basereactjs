@@ -1,0 +1,13 @@
+.breadcrumb {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    font-weight: 600;
+    span {
+        margin-left: 10px;
+    }
+    &:hover {
+        opacity: 0.8;
+    }
+}
